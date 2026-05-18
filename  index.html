@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce Website</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <a href=" index.html"><img class="logo" height=70px" src="log0-removebg-preview.png" alt=""></a>
+      <div class="left">
+        <ul class="ul">
+          <a href="#"><li>Laptops</li></a>
+          <a href="#"><li>Destop PCs</li></a>
+          <a href="#"><li>Networking Devices</li></a>
+          <a href="#"><li>Printers and Scanners</li></a>
+          <a href="#"><li>PC Parts</li></a>
+          <a href="#"><li>All Other Products</li></a>
+          <a href="#"><li>Repairs</li></a>
+          <a href="#"><li class="last-li">Our Deals</li></a>
+        <ul>
+      </div>
+      <div class="right">
+        <div><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg></div>
+        <div><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M292-120q-38 0-65-27.5T200-213v-371l-73-176H40v-80h141l66 160h591q23 0 35 19t1 39L760-399q51 8 85.5 47t34.5 92q0 58-40.5 99T741-120q-59 0-99.5-41T601-260q0-20 5-37t14-33l-131-12-120 180q-13 20-33.5 31T292-120Zm382-285 99-195H280l50 120q8 20 25.5 33.5T396-431l278 26ZM293-201q2 0 9-5l97-144q-49-5-77-23.5T280-412v200q0 5 4 8t9 3Zm447 1q26 0 43-17.5t17-42.5q0-26-17-43t-43-17q-25 0-42.5 17T680-260q0 25 17.5 42.5T740-200Zm-66-205-278-26 278 26Z"/></svg></div>
+        <div><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M160-200v-80h80v-280q0-83 50-147.5T420-792v-28q0-25 17.5-42.5T480-880q25 0 42.5 17.5T540-820v28q80 20 130 84.5T720-560v280h80v80H160Zm320-300Zm0 420q-33 0-56.5-23.5T400-160h160q0 33-23.5 56.5T480-80ZM320-280h320v-280q0-66-47-113t-113-47q-66 0-113 47t-47 113v280Z"/></svg></div>
+      </div>
+    </nav>
+    <navbar aria-label="mobile-navbar" class="mobile-navbar">
+      <div class="div-1">
+        <div><img height="50px" src="log0-removebg-preview.png" alt=""></div>
+        <div>Contact</div>
+      </div>
+      <div class="div-2">
+        <div>
+          <svg style="cursor: pointer;" class="js-menu" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e3e3e3"><path d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z"/></svg>
+          <div class="flex-1"><input name="input" class="input" type="text" placeholder="Search products"></div>
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e3e3e3"><path d="M231.83-102.64Q210-124.62 210-155.47q0-30.86 21.98-52.7Q253.95-230 284.81-230t52.69 21.98q21.83 21.97 21.83 52.83t-21.97 52.69q-21.98 21.83-52.83 21.83-30.86 0-52.7-21.97Zm400 0Q610-124.62 610-155.47q0-30.86 21.98-52.7Q653.95-230 684.81-230t52.69 21.98q21.83 21.97 21.83 52.83t-21.97 52.69q-21.98 21.83-52.83 21.83-30.86 0-52.7-21.97ZM238.67-734 344-515.33h285.33l120-218.67H238.67ZM206-800.67h589.38q22.98 0 34.97 20.84 11.98 20.83.32 41.83L693.33-490.67q-11 19.34-28.87 30.67-17.87 11.33-39.13 11.33H324l-52 96h487.33V-286H278q-43 0-63-31.83-20-31.84-.33-68.17l60.66-111.33-149.33-316H47.33V-880h121.34L206-800.67Zm138 285.34h285.33H344Z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e3e3e3"><path d="M370.33-524.33Q326.67-568 326.67-634t43.66-109.67Q414-787.33 480-787.33t109.67 43.66Q633.33-700 633.33-634t-43.66 109.67Q546-480.67 480-480.67t-109.67-43.66ZM160-160v-100q0-36.67 18.5-64.17T226.67-366q65.33-30.33 127.66-45.5 62.34-15.17 125.67-15.17t125.33 15.5q62 15.5 127.34 45.17 30.33 14.33 48.83 41.83T800-260v100H160Zm66.67-66.67h506.66V-260q0-14.33-8.16-27-8.17-12.67-20.5-19-60.67-29.67-114.34-41.83Q536.67-360 480-360t-111 12.17Q314.67-335.67 254.67-306q-12.34 6.33-20.17 19-7.83 12.67-7.83 27v33.33Zm315.16-345.5Q566.67-597 566.67-634t-24.84-61.83Q517-720.67 480-720.67t-61.83 24.84Q393.33-671 393.33-634t24.84 61.83Q443-547.33 480-547.33t61.83-24.84ZM480-634Zm0 407.33Z"/></svg>
+        </div>
+      </div>
+    </navbar>
+    <aside aria-hidden="true" aria-label="side-bar" class="side-bar">
+      <svg class="js-close" style="cursor:pointer; fill: black;" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+    </aside>
+    <div aria-label="overlay" class="overlay"></div>
+  </header>
+
+  <main class="main">
+   <div class="horizantal-carosal">
+      <div class="swiper image-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img class="images" src="slider images/slide-image-2.jpeg" alt="image"></div>
+        <div class="swiper-slide"><img class="images" src="slider images/slide-image-3.jpeg" alt="image"></div>
+        <div class="swiper-slide"><img class="images" src="slider images/slide-image-5.jpeg"></div>
+        <div class="swiper-slide"><img class="images" src="slider images/slider-iamge-5.jpg" alt="image"></div>
+        <div class="swiper-slide"><img class="images" src="slider images/slider-image-10.jpg" alt="image"></div>
+        <div class="swiper-slide"><img class="images" src="slider images/slider-image-11.jpg" alt="image"></div>
+        <div class="swiper-slide"><img class="images" src="slider images/slider-image-12.jpg" alt="image"></div>
+        <div class="swiper-slide"><img class="images" src="slider images/slider-image-14.jpg" alt="image"></div>
+        <div class="swiper-slide"><img class="images" src="slider images/slider-image-15.jpeg" alt="image"></div>
+        <div class="swiper-slide"><img class="images" src="slider images/slider-image-6.jpg" alt="image"></div>
+        <div class="swiper-slide"><img class="images" src="slider images/slider-image-7.jpg" alt="image"></div>
+        <div class="swiper-slide"><img class="images" src="slider images/slider-image-8.jpeg" alt="image"></div>
+        <div class="swiper-slide"><img class="images" src="slider images/slider-image-10.jpg" alt="image"></div>
+        <div class="swiper-slide"><img class="images" src="slider images/slider-image-9.jpg" alt="image"></div>
+        </div>
+
+        <!--<div class="swiper-pagination"></div>-->
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!--<div class="swiper-scrollbar"></div>-->
+      </div>
+    </div>
+
+    <section class="section-1">
+      <div class="new-products">
+        <p>New Products</p>
+        <a href="#">See all products</a>
+      </div>
+      <div class="card-container">
+        <!--Rest of HTML was generate through javascript-->
+      </div>
+    </section>
+
+    <section class="section-2">
+      <div class="products-links">
+        <a href="#">Msi GS Series</a>
+        <a href="#">Msi GT Series</a>
+        <a href="#">Msi GL Series</a>
+        <a href="#">Msi GE Series</a>
+      </div>
+      <div class="msi-moniter">
+        <div class="column-1">
+          <div class="msi-image-container">
+            <p>gaming moniter</p>
+          </div>
+        </div>
+        <div class="column-2 js-column">
+          <!--HTML was generate through javascript--> 
+        </div>
+      </div>
+      <div class="msi-moniter">
+        <div class="column-1-2">
+          <div class="msi-image-container">
+            <p>custom build</p>
+          </div>
+        </div>
+        <div class="column-2 js-column-2">
+          <!--HTML was generate through javascript--> 
+        </div>
+        </div>
+      <div class="msi-moniter">
+        <div class="column-1-2-3">
+          <div class="msi-image-container">
+            <p>msi laptops</p>
+          </div>
+        </div>
+        <div class="column-2 js-column-3">
+          <!--HTML was generate through javascript--> 
+        </div>
+      </div>
+      <div class="infinite-carousal">
+        <div class="carousal">
+          <div class="cards"><img height="30px" src="brand-logos/Acer Predator logo - Brandlogos.net.svg" alt="brand-logos"></div>
+          <div class="cards"><img height="20px" src="brand-logos/Acer logo - Brandlogos.net (Copy).svg" alt="brand-logos"></div>
+          <div class="cards"><img height="20px" src="brand-logos/Asus logo - Brandlogos.net.svg" alt="brand-logos"></div>
+          <div class="cards"><img height="40px" src="brand-logos/dell-logo-preview.png" alt="brand-logos"></div>
+          <div class="cards"><img height="40px" src="brand-logos/HP Inc logo - Brandlogos.net.svg" alt="brand-logos"></div>
+          <div class="cards"><img height="40px" src="brand-logos/hp-(eps)-vector-logo.png" alt="brand-logos"></div>
+          <div class="cards"><img height="20px" src="brand-logos/MSI logo - Brandlogos.net.svg" alt="brand-logos"></div>
+          <div class="cards"><img height="30px" src="brand-logos/OpenAI logo - Brandlogos.net.svg" alt="brand-logos"></div>
+        </div> 
+      </div>
+      <buttton class="back-to-top-btn"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-528 296-344l-56-56 240-240 240 240-56 56-184-184Z"/></svg></buttton>
+    </section>
+
+    <section class="section-3">
+      <!-- Slider main container -->
+      <div class="swiper review-slider">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper review-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide review-slide">
+            <div class="div">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolorum esse quis, doloribus molestiae iste tempore suscipit, temporibus officia alias at nostrum. Libero, perferendis aperiam. Vel earum id atque sunt!</div>
+            <div class="div">
+              <div><p>Leave us review</p></div>
+            </div>
+          </div>
+          <div class="swiper-slide review-slide">
+            <div class="div">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolorum esse quis, doloribus molestiae iste tempore suscipit, temporibus officia alias at nostrum. Libero, perferendis aperiam. Vel earum id atque sunt!</div>
+            <div class="div">
+              <div><p>Leave us review</p></div>
+            </div>
+          </div>
+          <div class="swiper-slide review-slide">
+            <div class="div">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolorum esse quis, doloribus molestiae iste tempore suscipit, temporibus officia alias at nostrum. Libero, perferendis aperiam. Vel earum id atque sunt!</div>
+            <div class="div">
+              <div><p>Leave us review</p></div>
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+
+      <div class="activity-center">
+        <div class="container">
+          <div><svg xmlns="http://www.w3.org/2000/svg" height="10px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M367-527q-47-47-47-113t47-113q47-47 113-47t113 47q47 47 47 113t-47 113q-47 47-113 47t-113-47ZM160-160v-112q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v112H160Zm80-80h480v-32q0-11-5.5-20T700-306q-54-27-109-40.5T480-360q-56 0-111 13.5T260-306q-9 5-14.5 14t-5.5 20v32Zm296.5-343.5Q560-607 560-640t-23.5-56.5Q513-720 480-720t-56.5 23.5Q400-673 400-640t23.5 56.5Q447-560 480-560t56.5-23.5ZM480-640Zm0 400Z"/></svg></div>
+          <div class="heading">Product Support</div>
+          <div>Lorem ipsum dolor sit amet consectetur adipisicing elit..</div>
+        </div>
+        <div class="container">
+          <div><svg xmlns="http://www.w3.org/2000/svg" height="10px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M360-120H200q-33 0-56.5-23.5T120-200v-280q0-75 28.5-140.5t77-114q48.5-48.5 114-77T480-840q75 0 140.5 28.5t114 77q48.5 48.5 77 114T840-480v280q0 33-23.5 56.5T760-120H600v-320h160v-40q0-117-81.5-198.5T480-760q-117 0-198.5 81.5T200-480v40h160v320Zm-80-240h-80v160h80v-160Zm400 0v160h80v-160h-80Zm-400 0h-80 80Zm400 0h80-80Z"/></svg></div>
+          <div class="heading">Personal Account</div>
+          <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+        </div>
+        <div class="container">
+          <div><svg  xmlns="http://www.w3.org/2000/svg" height="10px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M160-440v80h640v-80H160Zm0-440h640q33 0 56.5 23.5T880-800v440q0 33-23.5 56.5T800-280H640v200l-160-80-160 80v-200H160q-33 0-56.5-23.5T80-360v-440q0-33 23.5-56.5T160-880Zm0 320h640v-240H160v240Zm0 200v-440 440Z"/></svg></div>
+          <div class="heading">Amazing Saving</div>
+          <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-section">
+      <div class="news-letter-email">
+        <div class="letter">
+          <p>Sign Up To Our Newsletter</p>
+          <p>Be The Fiest To Hear About Latest Offers</p>
+        </div>
+        <div class="email">
+          <input required type="email" placeholder="Your email">
+          <button type="submit">Subscribe</button>
+        </div>
+      </div>
+      <div class="about-information-contanier">
+        <div>
+          <p class="information">Information</p>
+          <p>About Us</p>
+          <p>About Zip</p>
+          <p>Privacy</p>
+          <p>Search</p>
+          <p>Cummunity</p>
+          <p>Desktops</p>
+          <p>Gpus</p>
+          <p>Source</p>
+          <p>Contact Us</p>
+        </div>
+        <div>
+          <p class="information">PCs</p>
+          <p>Cpus</p>
+          <p>Desktops</p>
+          <p>Gpus</p>
+          <p>Products</p>
+          <p>New Products</p>
+          <p>Printer</p>
+          <p>Policy</p>
+          <p>Source</p>
+        </div>
+        <div>
+          <p class="information">Laptops</p>
+          <p>Cpus</p>
+          <p>Desktops</p>
+          <p>Gpus</p>
+          <p>Products</p>
+          <p>New Products</p>
+          <p>Printer</p>
+          <p>Cummunity</p>
+          <p>Source</p>
+          <p>Contact Us</p>
+          <p>Policy</p>
+          <p>Source</p>
+        </div>
+        <div>
+          <p class="information">Desktops PCs</p>
+          <p>Cpus</p>
+          <p>Desktops</p>
+          <p>Gpus</p>
+          <p>Products</p>
+          <p>New Products</p>
+          <p>Printer</p>
+          <p>Cummunity</p>
+          <p>Source</p>
+          <p>Contact Us</p>
+          <p>Policy</p>
+          <p>Source</p>
+        </div>
+        <div>
+          <p class="information">Address</p>
+          <p>Street No: 15f/ 78s</p>
+          <p>Email Address: example@email.com</p>
+          <p>Cummunity</p>
+          <p>Source</p>
+          <p>Contact Us</p>
+          <p>New Products</p>
+          <p>Printer</p>
+          <p>Policy</p>
+          <p>Source</p>
+        </div>
+      </div>
+      <div class="last-div">
+        <div class="social-accounts">
+          <div><a href="#"><svg class="svg" style="--accent-color:#FF0069;" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></svg></a></div>
+          <div><a href="#"><svg class="svg" style="--accent-color:#0a0a0a;" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>X</title><path d="M14.234 10.162 22.977 0h-2.072l-7.591 8.824L7.251 0H.258l9.168 13.343L.258 24H2.33l8.016-9.318L16.749 24h6.993zm-2.837 3.299-.929-1.329L3.076 1.56h3.182l5.965 8.532.929 1.329 7.754 11.09h-3.182z"/></svg></a></div>
+          <div><a href="#"><svg class="svg" style="--accent-color:#0866FF;" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg></a></div>
+        </div>
+        <div class="payment-methods">
+          <div><img height="40px" src="paypal-logo.webp" alt=""></div>
+          <div><img height="40px" src="Mastercard by Pentagram.jpeg" alt="payment-methods"></div>
+          <div><img height="40px" src="Google Pay is an online service that lets people….jpeg" alt="payment-methods"></div>
+          <div><img height="40px" src="Mastercard by Pentagram.jpeg"alt="payment-methods"></div>
+        </div>
+        <div class="copyright">
+          <p>Copyright (c) Shop.Pvt.Ltd</p>
+        </div>
+      </div>
+    </footer>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
