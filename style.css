@@ -450,6 +450,7 @@ header{
   gap: 2rem;
   font-size: 0.9rem;
   width: 100%;
+  overflow:hidden;
 }
 .div{
   display: flex;
@@ -457,6 +458,7 @@ header{
   justify-content: space-between;
   width: 100%;
   position: relative;
+
 }
 .div p{
   border: 2px solid rgb(6, 45, 220);
