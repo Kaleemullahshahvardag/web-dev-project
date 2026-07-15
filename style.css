@@ -349,10 +349,10 @@ header{
   align-items: center;
 }
 .column-1-2{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.605)), url(1306175.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.605)), url(1229905.jpg);
 }
 .column-1-2-3{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.605)), url(1229905.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.605)), url(1306175.jpg);
 }
 .msi-image-container{
   color: white;
@@ -382,15 +382,7 @@ header{
   margin-top: 2rem;
   overflow-x: auto;
 }
-.infinite-carousal::-webkit-scrollbar{
-  display: none;
-}
-.carousal{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 2em;
-}
+
 .cards{
   flex:  0 0 1;
   display: flex;
@@ -509,7 +501,7 @@ header{
   font-weight: 600;
 }
 
-.section-1, .section-2, .section-3, .horizantal-carosal, .navbar{
+.section-1, .section-2, .section-3, .navbar{
   padding-left: 2rem;
   padding-right: 2rem;
 }
@@ -621,13 +613,7 @@ header{
 .social-accounts div svg:hover{
   fill: var(--accent-color);
 }
-.payment-methods{
-  display: flex;
-  gap: 0.5rem;
-  div img{
-    border-radius: 6px;
-  }
-}
+
 .information{
   color: white;
   font-weight: 500;
@@ -674,7 +660,7 @@ header{
   }
 }
 @media(max-width: 700px){
-  .section-1, .section-2, .section-3, .horizantal-carosal{
+  .section-1, .section-2, .section-3{
     padding-left: 1rem;
     padding-right: 1rem;
   }
