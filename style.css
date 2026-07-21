@@ -257,7 +257,7 @@ header{
   margin-top: 1rem;
   margin-bottom: 1rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(1650px, 1fr));
   gap: 0.5rem;
 }
 .card-1{
